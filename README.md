@@ -1,6 +1,6 @@
 ## Curso React
 
-Seção 3, aulas 45 à 53.
+Seção 4, aulas 45 à 53.
 
 Professor: Matheus Battisti
 
