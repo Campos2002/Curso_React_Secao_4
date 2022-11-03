@@ -2,6 +2,7 @@ import './App.css';
 import MyComponent from './components/MyComponent';
 import { useState } from 'react';
 import DynamicClass from './components/DynamicClass';
+import Title from './components/Title';
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <h2 style={name === 'Guilherme' ? { color: "green" } : { color: "pink" }}>CSS Dinâmico (Nome)</h2>
       {/* CLASSES DINÂMICAS */}
       <DynamicClass />
+      {/* CSS Modules */}
+      <Title />
     </div>
   );
 };
